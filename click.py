@@ -14,13 +14,15 @@ q = '"'
 ##    break
 
 dirlist = os.listdir(cwd)
+list1 = []
 with open('filenames.txt', 'w') as f:
     for item in dirlist:
-        if (item == 'README.txt' or item == 'Clicky2.html' or item == 'eromanga.jpg' or item == 'click.py' or item == 'filenames.txt' or item == 'Click(folder setup).py'):
+        if (item == "README.txt" or item == 'README.md' or item == 'Clicky2.html' or item == 'eromanga.jpg' or item == 'click.py' or item == 'filenames.txt' or item == 'Click(folder setup).py'):
             print ("Skipping")
         else:
             f.write (q + "%s" % item + q + ", ")
             print("Writing file")
+            list1.append("%s" % item)
             print(cwd)
 
 f = open('Clicky2.html','w')
@@ -425,6 +427,6 @@ h2{
 </body>
 </html>
 """ 
-dd  = message % (dirlist)
+dd  = message % (list1)
 f.write(dd)
 f.close()

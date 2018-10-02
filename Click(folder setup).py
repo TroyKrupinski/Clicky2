@@ -27,7 +27,7 @@ list3 = []
 list4 = []
 with open('filenames.txt', 'w') as f:
     for item in dirlist:
-        if (item == fold or item == fold2 or item == fold3 or item == 'README.txt' or item == 'Clicky2.html' or item == 'eromanga.jpg' or item == 'click.py' or item == 'filenames.txt' or item == 'Click(folder setup).py'):
+        if (item == fold or item == fold2 or item == fold3 or item == 'README.txt' or item == 'Clicky2.html' or item == 'eromanga.jpg' or item == 'click.py' or item == 'filenames.txt' or item == 'Click(folder setup).py' or 'README.md'):
             print ("Skipping")
         else:
             f.write (q + "/" + "%s" % item + q + ", ")

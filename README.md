@@ -1,7 +1,7 @@
 # Clicky2
 Clicky is a local web based SWF player.
 Clicky was created by Troy Krupinski - 2018 October @ UT Aus
-Since JavaScript cannot access local files, I use python to add them.
+
 
 *-------HOW TO SETUP CLICKY-------*
 1. Put all clicky files in the folder you wish to play files from.

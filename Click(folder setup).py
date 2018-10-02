@@ -25,18 +25,18 @@ list1 = []
 list2 = []
 list3 = []
 list4 = []
-with open('filenames.txt', 'w') as f:
+with open('filenames.txt', 'w', encoding='utf8') as f:
     for item in dirlist:
-        if (item == fold or item == fold2 or item == fold3 or item == 'README.txt' or item == 'Clicky2.html' or item == 'eromanga.jpg' or item == 'click.py' or item == 'filenames.txt' or item == 'Click(folder setup).py' or 'README.md'):
+        if (item == "README.txt" or item == 'README.md' or item == 'Clicky2.html' or item == 'eromanga.jpg' or item == 'click.py' or item == 'filenames.txt' or item == 'Click(folder setup).py'):
             print ("Skipping")
         else:
-            f.write (q + "/" + "%s" % item + q + ", ")
-            list1.append("%s" % item)
+            f.write (q + "%s" % item + q + ", ")
             print("Writing file")
+            list1.append("%s" % item)
             print(cwd)
 cwd = cwd + "/" + fold
 dirlist = os.listdir(cwd)
-with open('filenames.txt', 'w') as f:
+with open('filenames.txt', 'w', encoding='utf8') as f:
     for item in dirlist:
         if (item == 'clicky3.html' or item == 'eromanga.jpg' or item == 'GetFiles.py' or item == 'filenames.txt'):
             print ("Skipping")
@@ -49,7 +49,7 @@ cwd = os.getcwd()
 cwd = cwd.replace("\\", "\\\\")
 cwd = cwd + "/" + fold2
 dirlist = os.listdir(cwd)
-with open('filenames.txt', 'w') as f:
+with open('filenames.txt', 'w', encoding='utf8') as f:
     for item in dirlist:
         if (item == 'clicky3.html' or item == 'eromanga.jpg' or item == 'GetFiles.py' or item == 'filenames.txt'):
             print ("Skipping")
@@ -62,7 +62,7 @@ cwd = os.getcwd()
 cwd = cwd.replace("\\", "\\\\")
 cwd = cwd + "/" + fold3
 dirlist = os.listdir(cwd)
-with open('filenames.txt', 'w') as f:
+with open('filenames.txt', 'w', encoding='utf8') as f:
     for item in dirlist:
         if (item == 'clicky3.html' or item == 'eromanga.jpg' or item == 'GetFiles.py' or item == 'filenames.txt'):
             print ("Skipping")
@@ -72,7 +72,7 @@ with open('filenames.txt', 'w') as f:
             print("Writing file")
             print(cwd)
 
-f = open('Clicky2.html','w')
+f = open('Clicky2.html','w', encoding='utf8')
 
 
 message = """

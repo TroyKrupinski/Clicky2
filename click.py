@@ -15,7 +15,7 @@ q = '"'
 
 dirlist = os.listdir(cwd)
 list1 = []
-with open('filenames.txt', 'w') as f:
+with open('filenames.txt', 'w', encoding='utf8') as f:
     for item in dirlist:
         if (item == "README.txt" or item == 'README.md' or item == 'Clicky2.html' or item == 'eromanga.jpg' or item == 'click.py' or item == 'filenames.txt' or item == 'Click(folder setup).py'):
             print ("Skipping")
@@ -25,7 +25,7 @@ with open('filenames.txt', 'w') as f:
             list1.append("%s" % item)
             print(cwd)
 
-f = open('Clicky2.html','w')
+f = open('Clicky2.html','w', encoding='utf8')
 
 
 message = """

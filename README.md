@@ -1,19 +1,13 @@
 # Clicky2
 Clicky is a local web based SWF player.
 Clicky was created by Troy Krupinski - 2018 October @ UT Aus
-Since JavaScript cannot access local files, you have to add your files manually
+Since JavaScript cannot access local files, I use python to add them.
 
 *-------HOW TO SETUP CLICKY-------*
 1. Put all clicky files in the folder you wish to play files from.
-2. Open "GetFiles.py" and follow the directions.
-3. Open "filenames.txt" and copy the entire document.
-4. EDIT "clicky2.html" with any text editor.
-5. Go to line 80 and paste what was in "filenames.txt" inside -->> ar[*here*]
-6. To get file names from a folder in the same directory, open "GetFilesF.py" and follow the instructions
-7. Open "filenames.txt" and copy the entire document again.
-8. Go to line 80 and paste what was in "filenames.txt" inside -->> ar2[*here*]
-9. Repeat steps 6 through 8 for ar3[] and ar4[] if needed
-
+2. If you want to be able to play multiple (up to 3) different directories, open "Click(folder setup).py", if not open "click.py".
+3. Open "Clicky2.html"
+4 Done!
 
 *-------HOW TO USE CLICKY-------*
 How to use the multiple buttons:

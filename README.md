@@ -4,13 +4,15 @@ Clicky was created by Troy Krupinski - 2018 October @ UT Aus
 
 
 *-------HOW TO SETUP CLICKY-------*
-1. Put all clicky files in the folder you wish to play files from.
+1. If you haven't already, install Python 3.7: https://www.python.org/downloads/release/python-370/
+ 
+2. Put all clicky files in the folder you wish to play files from.
 
-2. If you want to be able to play multiple (up to 3) different directories, open "Click(folder setup).py", if not open "click.py".
+3. If you want to be able to play multiple (up to 3) different directories, open "Click(folder setup).py", if not open "click.py".
 
-3. Open "Clicky2.html"
+4. Open "Clicky2.html"
 
-4 Done!
+5.  Done!
 
 *-------HOW TO USE CLICKY-------*
 How to use the multiple buttons:
